@@ -146,16 +146,5 @@ class SnakeGameAI:
             y -= BLOCK_SIZE
 
         self.head = Point(x, y)
-'''
-# Initialize the game
-if __name__ == "__main__":
-    game = SnakeGameAI()
-
-    while True:
-        action = [1, 0, 0]  # Example action: go straight
-        reward, game_over, score = game.play_step(action)
-        if game_over:
-            game.reset()
-'''
 
 #save data
