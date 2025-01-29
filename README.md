@@ -1,6 +1,6 @@
 # Snake AI with Deep Q-Learning
 
-This project is a Python implementation of a Snake game where the AI learns to play using Deep Q-Learning. The AI agent is trained to maximize its score by exploring the game environment, and learning optimal moves through reward-based training. The model is built using PyTorch.
+This project is a Python implementation of a Snake game where the AI learns to play using Deep Q-Learning. The AI agent is trained to maximize its score by exploring the game environment and learning optimal moves through reward-based training. The model is built using PyTorch.
 
 ## Requirements:
 - Python 3.x
@@ -41,7 +41,7 @@ this script initializes the game environment, trains the AI using Deep Q-Learnin
 
  ## License 
 
- This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
+ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
