@@ -13,3 +13,8 @@ You can install the necessary libraries using the following command:
 
 ```bash
 pip install pygame torch numpy matplotlib
+```
+
+## How To Run
+
+Run the training script to train the AI:
