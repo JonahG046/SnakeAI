@@ -22,7 +22,7 @@ GREEN = (0, 255, 0)
 BLACK = (0, 0, 0)
 
 BLOCK_SIZE = 20
-SPEED = 1000000000
+SPEED = 20
 
 class SnakeGameAI:
 
@@ -87,8 +87,8 @@ class SnakeGameAI:
             self.snake.pop()
 
         # 5. update ui and clock
-        #self._update_ui()
-        #self.clock.tick(SPEED)
+        self._update_ui()
+        self.clock.tick(SPEED)
         # 6. return game over and score
         return reward, game_over, self.score
 
